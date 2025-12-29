@@ -35,7 +35,7 @@ export default function ThreeDSection() {
           start: 'top 70%',             // 画面の70%の位置に来たら開始
           end: 'bottom 50%',            // 終了位置
           scrub: 1,                     // スクロール量と同期させる（数値は滑らかさ）
-          // markers: true,             // 開発時にデバッグ線を表示したい場合ONにする
+          markers: true,             // 開発時にデバッグ線を表示したい場合ONにする
         },
       }
     );
