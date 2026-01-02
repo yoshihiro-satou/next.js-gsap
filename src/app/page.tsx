@@ -10,6 +10,7 @@ import Keyframe from '@/src/app/components/Keyframe'
 import WildcardKeyframe from '@/src/app/components/WildcardKeyframe'
 import Rotate from '@/src/app/components/Rotate'
 import TransitionOptions from '@/src/app/components/TransitionOptions'
+import UseAnimationFrame from '@/src/app/components/UseAnimationFrame'
 
 export default function Home() {
   return (
@@ -39,6 +40,9 @@ export default function Home() {
       </div>
       <div className='h-85 w-full flex items-center justify-center bg-gray-300'>
         <TransitionOptions />
+      </div>
+      <div className='h-85 w-full flex items-center justify-center bg-blue-300'>
+        <UseAnimationFrame />
       </div>
     </>
   );
